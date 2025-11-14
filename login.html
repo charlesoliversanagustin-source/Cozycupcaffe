@@ -124,7 +124,7 @@ function handleLogin(e) {
 
   if (savedUser && username === savedUser.username && password === savedUser.password) {
     alert("Login successful! Welcome back, " + username + "!");
-    window.location.href = "homepage.html";
+    window.location.href = "index.html";
   } else {
     errorMessage.textContent = "Invalid username or password. Please try again.";
   }
